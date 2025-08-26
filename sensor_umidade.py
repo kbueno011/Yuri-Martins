@@ -39,7 +39,7 @@ while True:
 
     if valor_umidade > LIMIAR_SECO:
 
-        print("Alerta: Solo sexo! É hora de regar.")
+        print("Alerta: Solo seco! É hora de regar.")
         led_seco.value(1)
     else:
 
