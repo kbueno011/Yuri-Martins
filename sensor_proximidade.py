@@ -30,13 +30,13 @@ def obter_distancia():
 
 while True:
     dist = obter_distancia()
-    print("distancia", dist. "cm")
+    print("distancia", dist, "cm")
 
 
     if dist <= 10:
 
         print("INTRUSO DETECTADO!")
-        led_intruser.value(1)
+        led_intruder.value(1)
         time.sleep(1)
     else:
         print("Ambiente seguro.")
